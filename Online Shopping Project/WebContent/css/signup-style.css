@@ -1,0 +1,117 @@
+body {background-image: url("");
+    background-size:auto;
+    
+    font: 1em Helvetica;
+  }
+  
+  #container {
+    /* width: 840px; */
+
+    margin-top: 50px;
+   
+  }
+  
+  
+  .whysignLogin
+  {
+      float: left;
+    background-color: white;
+    width: 480px;
+    height: 347px;
+    border-radius: 0 5px 5px 0;
+    padding-top: 20px;
+    padding-right: 20px;
+  }
+  .whyforgotPassword
+  {
+      float: left;
+    background-color: white;
+    width: 480px;
+    height: 470px;
+    border-radius: 0 5px 5px 0;
+    padding-top: 20px;
+    padding-right: 20px;
+  }
+  .signup {
+
+    float: right;
+    width: 300px;
+    padding: 40px 40px;
+    background-color:#ffffff;
+    text-align: center;
+    border-radius: 54px;
+    margin-left: 800px;
+    margin-top: 300px;
+    margin-right: 150px;
+    box-shadow: 3px 4px 15px 2px rgba(85, 85, 85, 0.15);
+    
+    
+    
+  }
+  
+  
+  
+  [type=text],[type=email],[type=number],[type=password],select,option {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    border: 0;
+    border-radius: 10px;
+    border-bottom: 1px solid #3BB77E;
+    height: 45px;
+    line-height: 45px;  
+    margin-bottom: 10px;
+    font-size: 1em;
+    color: rgb(119, 119, 119);
+    text-align:center;
+    
+  }
+
+  
+  /* [type=submit] {
+    margin-top: 25px;
+    width: 40%;
+    border: 1px;
+    
+
+background: #D2EEE1;
+border-radius: 26px;
+    color: white;
+    font-weight: 400;
+    font-size:  20px;
+  } */
+  
+  [type='text']:focus {
+    outline: none;
+    border-color: #5cfaff;
+  }
+  
+  h1 {
+    color: red;
+    font-weight: 900;
+    font-size: 2.5em;
+  }
+  
+  p {
+    color: rgba(0,0,0,.6);
+    font-size: 1.2em;
+    margin: 50px 0 50px 0;
+  }
+  
+  span {
+    font-size: .75em;
+    background-color: white;
+    padding: 2px 5px;
+    color: rgba(0,0,0,.6);
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.3);
+    margin: 5px;
+  }
+  
+  span:hover {
+    color: #53CACE;
+  }
+  
+  p:nth-of-type(2) {
+    font-size: 1em;
+  }
